@@ -60,9 +60,17 @@ body{
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 20vh;
-        position: absolute;
         
+        position: absolute;
+    }
+    .logo-image{
+        width: 30vw;
+       height: 18vh; 
+    }
+    
+    .logo-name{
+       font-family: "CustomFont";
+       font-size: 30vw;
     }
 }
 
