@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="./style.css">
-    <script href="./script.js"></script>
+    <script href="./script.js" defer></script>
 </head>
 <body>
   <div class="page">
@@ -30,19 +30,26 @@
             <form method="get" action="">
                 <h3 id="formheader">Let's do this!</h3>
                 <div class="form-containers">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
-                    <input type="email" placeholder="you@ex.com">
-                    <input type="text" maxlength="10" placeholder="9876543210">
-                    <input type="password" class="pass" placeholder="Your Password">
-                    <input type="password" class="repass" placeholder="Password Again">
-
+                    <input type="text" placeholder="First Name" id="first-name">
+                    <input type="text" placeholder="Last Name" id="last-name">
+                    
+                    <input type="email" placeholder="you@ex.com" id="email">
+                    
+                    <input type="text" maxlength="10" placeholder="9876543210" id="phone-number">
+                    
+                    <input type="password" class="pass" placeholder="Your Password" id="password">
+                    
+                    <input type="password" class="repass" placeholder="Password Again" id="repassword">
+                    
+                    <div class="error"></div>
                 </div>
                 <hr>
 
                 <div class="submit-section">
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account ?<b class="log-in"> Log in</b></p>
+                     
+                    <input class="button" type="submit" value="Create Account">
+                    
+                    <p>Already have an account ?<a href="#"><b class="log-in"> Log in</b></a></p>
                 </div>
             </form>
         </div>

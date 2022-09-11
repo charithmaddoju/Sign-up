@@ -108,7 +108,7 @@ input{
     margin-top: 4vh;
 }
 
-button{
+.button{
     background-color: #596D48;
     width: 20vw;
     height: 4vh;
@@ -118,5 +118,24 @@ button{
 
 .log-in{
     color: #596D48;
+}
+a{
+    text-decoration: none;
+}
+
+input{
+    border: none;
+}
+
+
+
+input:focus{
+    outline: none;
+    border : 2px solid rgba(161, 233, 145, 0.4);
+}
+
+input:invalid{
+    outline: none;
+    border: 2px solid red;
 }
 
