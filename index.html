@@ -26,22 +26,23 @@
         <br>
         <b>You <em>know</em> you want to.</b>
         </div>
-        <div class="form">
-            <form method="get" action="">
+        <div>
+            <form id="form" method="get" action="#">
                 <h3 id="formheader">Let's do this!</h3>
                 <div class="form-containers">
-                    <input type="text" placeholder="First Name" id="first-name">
-                    <input type="text" placeholder="Last Name" id="last-name">
+                    <input type="text" placeholder="First Name" id="first-name" required>
                     
-                    <input type="email" placeholder="you@ex.com" id="email">
+                    <input type="text" placeholder="Last Name" id="last-name" required>
                     
-                    <input type="text" maxlength="10" placeholder="9876543210" id="phone-number">
+                    <input type="email" placeholder="you@ex.com" id="email-id" required>
                     
-                    <input type="password" class="pass" placeholder="Your Password" id="password">
+                    <input type="text" minlength="10" maxlength="10" placeholder="9876543210" id="phone-number" required>
                     
-                    <input type="password" class="repass" placeholder="Password Again" id="repassword">
+                    <input type="password" class="pass" placeholder="Your Password" id="password" required>
                     
-                    <div class="error"></div>
+                    <input type="password" class="repass" placeholder="Password Again" id="repassword" required>
+                    
+                    
                 </div>
                 <hr>
 
